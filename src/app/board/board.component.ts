@@ -64,4 +64,8 @@ export class BoardComponent implements OnInit {
       }
     }
   }
+
+  checkSelect() {
+    this.grid[0][0].selected = true;
+  }
 }

@@ -1,13 +1,18 @@
 .cardie-main{
-    width: 100%;
-    height: 100%;
+    width: calc(100% - 16px);
+    height: calc(100% - 16px);
     background-color: #ff0000;
     margin: 0;
-    padding: 0;
+    padding: 8px;
 }
 
 .cardie-main-board{
 
-    width: 600px;
-    height: 600px;
+    width: 585px;
+    height: 585px;
+}
+
+.cardie-card-board{
+    width: 585px;
+    height: 670px;
 }
