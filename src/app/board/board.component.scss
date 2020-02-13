@@ -1,0 +1,23 @@
+.cardie-board{
+    width: 100%;
+    height: 100%;
+    background-color: #00ff00;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cardie-board-row{
+    height:7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cardie-board-cell{
+    height: 100%;
+    width: 7%;
+    background-color: #0000FF;
+}
